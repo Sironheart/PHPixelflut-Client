@@ -1,8 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-require "vendor/autoload.php";
-
 if (!isset($argv[1]) || !isset($argv[2]) || !isset($argv[3]) || $argv[1] == '--help' || $argv[1] == 'help' || $argv[1] == '-h') {
     echo "This File needs 3 parameters" . PHP_EOL;
     echo "Parameter 1 is the IP-Address of the 'Pixelflut' Servers" . PHP_EOL;
