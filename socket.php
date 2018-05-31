@@ -5,8 +5,8 @@ if (!isset($argv[1]) || !isset($argv[2]) || !isset($argv[3]) || $argv[1] == '--h
     echo "This File needs 3 parameters" . PHP_EOL;
     echo "Parameter 1 is the IP-Address of the 'Pixelflut' Servers" . PHP_EOL;
     echo "Parameter 2 is a valid port number";
-    echo "Parameter 3 is the path to an image";
-    die("'help', '--help' and '-h' show you this help" . PHP_EOL . PHP_EOL . PHP_EOL . PHP_EOL);
+    echo "Parameter 3 is the path to an image" . PHP_EOL . PHP_EOL;
+    die("'help', '--help' and '-h' show you this help" . PHP_EOL);
 }
 elseif (preg_match('/[0-2]{0,1}[0-9]{1,2}\.[0-2]{0,1}[0-9]{1,2}\.[0-2]{0,1}[0-9]{1,2}\.[0-2]{0,1}[0-9]{1,2}/', $argv[1]) === 0) {
     die('Der erste Parameter muss einer IPv4 Adresse entsprechen!');
