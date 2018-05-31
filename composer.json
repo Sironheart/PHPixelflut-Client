@@ -1,0 +1,15 @@
+{
+    "name": "sironheart/phpixelflut-client",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "Steffen Beisenherz",
+            "email": "steffen.beisenherz@gmail.com"
+        }
+    ]
+}
